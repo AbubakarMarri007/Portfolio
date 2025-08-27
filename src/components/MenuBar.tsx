@@ -27,7 +27,7 @@ function MenuBar() {
         right: 0,
       }}
       ref={menuBarRef}
-      className={`md:h-screen z-50 h-[90vh] overflow-hidden w-full bg-[#f1f0ee] md:px-10 px-5`}
+      className={`z-50 h-full overflow-hidden w-full bg-[#f1f0ee] md:px-10 px-5`}
     >
       <div className="relative h-[90px] flex items-center w-full justify-between gap-5 md:mb-15 mb-7">
         <img className="w-20" src="logo.svg" alt="Site Logo" />

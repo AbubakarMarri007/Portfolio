@@ -104,7 +104,7 @@ export const TextScroll: React.FC<TextScrollProps> = ({
   }
 
   return (
-    <section className="relative w-full mt-12 mb-30">
+    <section className="relative w-full mt-12 mb-20">
       <ParallaxText baseVelocity={default_velocity} className={className}>
         {text}
       </ParallaxText>
